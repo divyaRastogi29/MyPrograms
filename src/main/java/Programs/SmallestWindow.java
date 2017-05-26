@@ -7,7 +7,7 @@ import java.util.HashMap;
  */
 public class SmallestWindow {
 
-    public String getSmallestWindow(String sub_str, String str){
+   /* public String getSmallestWindow(String sub_str, String str){
         HashMap<Character,Integer> map = new HashMap<Character, Integer>();
         for(int i=0;i<sub_str.length();i++){
             char c = sub_str.charAt(i);
@@ -17,5 +17,5 @@ public class SmallestWindow {
                 map.put(c,1);
         }
 
-    }
+    }*/
 }

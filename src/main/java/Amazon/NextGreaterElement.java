@@ -7,7 +7,12 @@ import java.util.Stack;
  */
 public class NextGreaterElement {
 
-    public void nextGreatest(int[] arr){
+    public static void main(String[] args) {
+        int[] arr = {4,5,2,25};
+        nextGreatest(arr);
+    }
+
+    public static void nextGreatest(int[] arr){
         Stack<Integer> stack = new Stack<Integer>();
         int element;
 

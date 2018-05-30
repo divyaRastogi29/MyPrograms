@@ -33,14 +33,14 @@ public class BinaryMinHeap<T> {
     }
 
     /**
-     * Checks where the key exists in heap or not
+     * Checks where the key exists in heap or not O(1)
      */
     public boolean containsData(T key){
         return nodePosition.containsKey(key);
     }
 
     /**
-     * Add key and its weight to they heap
+     * Add key and its weight to they heap O(log n)
      */
     public void add(int weight,T key) {
         Node node = new Node();
@@ -81,7 +81,7 @@ public class BinaryMinHeap<T> {
     }
 
     /**
-     * Decreases the weight of given key to newWeight
+     * Decreases the weight of given key to newWeight O(log n)
      */
     public void decrease(T data, int newWeight){
         Integer position = nodePosition.get(data);
@@ -151,7 +151,7 @@ public class BinaryMinHeap<T> {
         return minNode;
     }
     /**
-     * Extract min value key from the heap
+     * Extract min value key from the heap O(log n)
      */
     public T extractMin(){
         Node node = extractMinNode();

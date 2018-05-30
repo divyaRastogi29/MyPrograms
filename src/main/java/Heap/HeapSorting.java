@@ -25,6 +25,7 @@ public class HeapSorting {
         }
 
         for(int i=n-1;i>=0;i--){
+            //swap arr[0] and arr[i]
             int temp = arr[0];
             arr[0] = arr[i];
             arr[i] = temp;

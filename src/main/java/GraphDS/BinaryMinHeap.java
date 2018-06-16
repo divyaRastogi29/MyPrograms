@@ -20,6 +20,9 @@ import java.util.Map;
  * getKeyWeight - O(1)
  *
  * It is a combination of binary heap and hash map
+ * List is list of all nodes, it is like heap array
+ * Map contains each key of heap node that exists in list with the position of node in list
+ * Heap is maintained according to the weight of the node
  *
  */
 public class BinaryMinHeap<T> {

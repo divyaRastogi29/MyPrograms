@@ -1,0 +1,11 @@
+
+Rsquid:S1197"8Move the array designator from the variable to the type.(êï½ûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(˜ş·í
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+fsquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(›‰Èùÿÿÿÿ
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›‰Èùÿÿÿÿ
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍûÆùÿÿÿÿ
+dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øşë”
+lsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ù™ßn

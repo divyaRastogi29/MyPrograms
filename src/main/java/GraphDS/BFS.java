@@ -36,6 +36,7 @@ public class BFS {
             while (iterator.hasNext()){
                 int n = iterator.next();
                 if(!visited[n]){
+                    visited[n] = true;
                     queue.add(n);
                 }
             }

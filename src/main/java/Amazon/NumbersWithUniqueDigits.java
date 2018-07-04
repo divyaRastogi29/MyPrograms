@@ -25,8 +25,10 @@ public class NumbersWithUniqueDigits {
     }
 
     private static void getNumbersUtil(int n, int length,String str) {
-        if(length<=0)
+
+        if(length<=0) {
             list.add(str);
+        }
         else{
             for(int i='9';i<='0';i--){
                 if(("".equals(str))||((!str.contains((48-i)+""))&&(Integer.parseInt(str)<=n))){

@@ -8,9 +8,11 @@ import java.util.*;
 public class ThreeSum {
 
     public static void main(String[] args) {
-        int[] result = solution(new int[]{9,1,4,9,0,4,8,9,0,1});
+      /*  int[] result = solution(new int[]{9,1,4,9,0,4,8,9,0,1});
         for (int i: result)
-            System.out.println(i);
+            System.out.println(i);*/
+     Integer a = new Integer(5);
+     a = new Integer(7);
     }
 
     public  int solution0(String E, String L) {

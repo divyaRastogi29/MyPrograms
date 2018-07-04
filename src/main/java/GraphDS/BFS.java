@@ -10,7 +10,7 @@ import java.util.Queue;
 public class BFS {
 
     private int v;
-    private LinkedList<Integer> adj[];
+    private LinkedList<Integer>[] adj;
 
     BFS(int v){
         this.v = v;

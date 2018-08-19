@@ -120,6 +120,7 @@ Automation\GetPropertiesFromConfig.class
 Amazon\RootToLeafPathWithSum.class
 Array\Disjoint.class
 Lambda\Calculator.class
+Array\Test.class
 BasicClasses\Node.class
 Array\Trie$TrieNode.class
 GraphDS\Kruskal$Edge.class

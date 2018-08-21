@@ -30,11 +30,7 @@ public class NumbersWithUniqueDigits {
             list.add(str);
         }
         else{
-            for(int i='9';i<='0';i--){
-                if(("".equals(str))||((!str.contains((48-i)+""))&&(Integer.parseInt(str)<=n))){
-                    getNumbersUtil(n,length-1,str+(48-i));
-                }
-            }
+
         }
     }
 
